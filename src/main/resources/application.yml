@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    async:
+      request-timeout: 10000
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: "my-mcp"
+        version: "0.0.1"
+        type: SYNC
+        sse-message-endpoint: /mcp/messages
