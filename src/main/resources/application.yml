@@ -8,5 +8,6 @@ spring:
         enabled: true
         name: "my-mcp"
         version: "0.0.1"
-        type: SYNC
+        type: async
         sse-message-endpoint: /mcp/messages
+        sse-endpoint: /mcp/events
